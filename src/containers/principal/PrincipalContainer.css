@@ -1,0 +1,52 @@
+.PrincipalContainer {
+    margin-top: 56px;
+    margin-left: 240px;
+    flex: auto;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.PrincipalContainer>.categoriesCont {
+    height: 56px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+}
+
+.PrincipalContainer>.categoriesCont>div {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 24px;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.PrincipalContainer>.categoriesCont>div>button {
+    height: 32px;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #F2F2F2;
+}
+
+.PrincipalContainer>.categoriesCont>div>button:hover {
+    background-color: #eae7e7;
+}
+
+
+.PrincipalContainer>.videoListContainer {
+    flex: auto;
+    overflow-y: auto;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 253px);
+    gap: 15px;
+    justify-content: space-around;
+    margin-top: 56px;
+}
+

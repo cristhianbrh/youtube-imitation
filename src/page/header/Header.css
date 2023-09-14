@@ -1,0 +1,137 @@
+header {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+header>nav {
+    width: 100%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+
+header .left {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    margin-left: 24px;
+    gap: 22px;
+}
+
+header .left>button {
+    border: none;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    cursor: pointer;
+}
+header .left>button:hover {
+    background-color: #f0eaea;
+}
+header .MoreSetIcon {
+    width: 24px;
+}
+
+header .YoutubeIcon {
+    height: 20px;
+}
+
+
+
+header .search {
+    flex: 0 1 728px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+header .searchText {
+    border-radius: 50px;
+    background-color: green;
+
+    overflow: hidden;
+    display: flex;
+
+    height: 40px;
+    width: 90%;
+    justify-content: end;
+    border: #CCCCCC 1px solid;
+}
+
+header .searchText>input {
+    flex: auto;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-family: Roboto, Noto, sans-serif;
+    padding-left: 20px;
+}
+
+header .searchText>input:active {
+    border: none;
+}
+
+header .searchText>button {
+    border: none;
+    background: #F8F8F8;
+    border-left: #CCCCCC 1px solid;
+    width: 64px;
+    cursor: pointer;
+}
+
+header .searchText>button:hover {
+    background-color: #f0ecec;
+}
+
+header .search>button {
+    border-radius: 50%;
+    border: none;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    background-color: #F9F9F9;
+    cursor: pointer;
+}
+
+header .search>button>svg {
+    width: 18px;
+    height: 18px;
+}
+
+header .search>button:hover {
+    background-color: #edebeb;
+}
+
+header .btns {
+    /* background-color: red; */
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-right: 16px;
+}
+header .btns>img  {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+header .btns>button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+header .btns>button:hover {
+    background-color: #edebeb;
+}
+
+header svg {
+    height: 24px;
+}

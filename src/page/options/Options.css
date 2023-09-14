@@ -1,0 +1,56 @@
+.OptionsPage{
+    width: 204px;
+    margin: 12px;
+    /* margin-left: 24px; */
+    margin-left: 12px;
+    position: fixed;
+    top: 56px;
+    bottom: 0px;
+    padding-right: 24px;
+}
+.OptionsPage>div{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    border-radius: 10px;
+    gap: 24px;
+    cursor: pointer;
+}
+.OptionsPage>div:hover{
+    background-color: aliceblue;
+}
+.OptionsPage>div>svg{
+    margin-left: 12px;
+}
+.OptionsPage>div>p{
+    flex: auto;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+}
+.OptionsPage>div.OptionsPageOption__active{
+    font-weight: 600;
+    background-color: #F2F2F2;
+}
+.OptionsPage>div.OptionsPageOption__active>svg{
+    fill: black;
+}
+
+.OptionsPage svg{
+    width: 24px;
+    height: 24px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+/* 
+<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M20,7H4V6h16V7z M22,9v12H2V9H22z M15,15l-5-3v6L15,15z M17,3H7v1h10V3z" class="style-scope yt-icon"></path></g></svg>
+<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g class="style-scope yt-icon"><path d="M10,18v-6l5,3L10,18z M17,3H7v1h10V3z M20,6H4v1h16V6z M22,9H2v12h20V9z M3,10h18v10H3V10z" class="style-scope yt-icon"></path></g></svg>
+*/

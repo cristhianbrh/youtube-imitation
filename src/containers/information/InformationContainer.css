@@ -1,0 +1,34 @@
+.InformationContainer{
+    margin-left: 240px;
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.InformationContainer>svg{
+    width: 120px;
+    height: 120px;
+}
+.InformationContainer>p{
+    max-width: 60%;
+}
+.InformationContainer>p:nth-child(2){
+    font-size: 30px;
+}
+.InformationContainer>p:nth-child(3){
+    font-size: 20px;
+    max-width: 60%;
+}
+.InformationContainer>p:nth-child(4){
+    font-size: 20px;
+}
+.InformationContainer>p:nth-child(5){
+    font-size: 20px;
+    max-width: 60%;
+}
+.InformationContainer>p:nth-child(6){
+    font-size: 20px;
+    max-width: 60%;
+}
