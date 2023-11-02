@@ -32,8 +32,8 @@ export const PrincipalContainer = () => {
                 <div className="videoListContainer">
                     {
                         (!isLoading) && 
-                        dataVid.map(element => 
-                            <VideoRecommendation title={element.name} image={element.image} created={new Date(element.created)}
+                        dataVid.map((element, index) => 
+                            <VideoRecommendation key={"Principal_VideoRecommendation_"+index} title={element.name} image={element.image} created={new Date(element.created)}
                                 vistas={((element.episode).length).toString()}/>
                         ) 
                     }

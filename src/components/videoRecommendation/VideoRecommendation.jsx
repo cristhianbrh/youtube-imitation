@@ -4,12 +4,13 @@ export const VideoRecommendation = ({
         data="Mr addmin",
         image="./Img/videoImg.png",
         created = new Date(),
-        vistas = "3,9928"
+        vistas = "3,9928",
+        key
 })=>{
     
 
     return (
-        <div className="VideoRecommendation">
+        <div key={key} className="VideoRecommendation">
             <img src={image} alt="" />
             <div>
                 <img src="./Img/logo.png" alt="" />
